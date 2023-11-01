@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Retro Theme</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+<style type="text/css" id="dcoder_stylesheet">body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffd700;
+    color: #000080;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffa500;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000080;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffa500;
+    padding: 20px;
+    text-align: center;
+}</style></head>
+<body>
+    <header>
+        <h1>Welcome to the Indian Retro Theme Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <!-- Add your homepage content here -->
+    </section>
+
+    <section id="about">
+        <!-- Add your about page content here -->
+    </section>
+
+    <section id="services">
+        <!-- Add your services page content here -->
+    </section>
+
+    <section id="contact">
+        <!-- Add your contact page content here -->
+    </section>
+
+    <footer>
+        <!-- Add your footer content here -->
+    </footer>
+
+<script type="text/javascript" id="dcoder_script">document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', event => {
+        event.preventDefault();
+        const target = document.querySelector(anchor.getAttribute('href'));
+        target.scrollIntoView({ behavior: 'smooth' });
+    });
+});</script></body></html>
